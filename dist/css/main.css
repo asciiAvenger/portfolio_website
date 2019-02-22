@@ -51,20 +51,19 @@
 }
 
 .fat-entry {
-    border-top: 1px black solid;
+    border-top: 1px rgb(36, 36, 36) solid;
 }
 
 .fat-entry:first-child {
     border-top: none;
 }
 
-.normal-entry a {
-    color: lightgrey;
-}
-
 .fat-entry a {
     color: moccasin;
-    font-weight: bold;
+}
+
+.normal-entry a {
+    color: lightgrey;
 }
 
 /* menu bar transitions */
@@ -78,6 +77,7 @@
 }
 
 .menu-button-active span:nth-child(2) {
+    transform: rotate(-45deg);
     opacity: 0;
 }
 
@@ -95,4 +95,17 @@ main {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* footer */
+
+footer {
+    padding: 20px;
+    background-color: rgb(32, 32, 32);
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
 }
