@@ -100,7 +100,7 @@ main {
 /* footer */
 
 footer {
-    width: 100%;
+    width: auto;
     padding: 20px;
     background-color: rgb(32, 32, 32);
 }
