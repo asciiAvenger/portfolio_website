@@ -88,7 +88,7 @@
 /* main */
 
 main {
-    width: 100vw;
+    width: 100%;
 }
 
 .content {
@@ -100,6 +100,7 @@ main {
 /* footer */
 
 footer {
+    width: 100%;
     padding: 20px;
     background-color: rgb(32, 32, 32);
 }
