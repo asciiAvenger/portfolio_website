@@ -90,11 +90,38 @@ main {
     width: 100%;
 }
 
-.content {
+/* impressum and privacy-policy */
+
+.imp-pp-content {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 80px auto 30px auto;
     word-wrap: break-word;
+    line-height: 1.5;
+}
+
+.imp-pp-content h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.imp-pp-content h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.imp-pp-content h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.imp-pp-content p {
+    font-size: 16px;
+}
+
+.imp-pp-content ul {
+    margin-left: 25px;
 }
 
 /* footer */
