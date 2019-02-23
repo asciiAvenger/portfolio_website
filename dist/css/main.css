@@ -78,7 +78,6 @@
 
 .menu-button-active span:nth-child(2) {
     transform: rotate(-45deg);
-    opacity: 0;
 }
 
 .menu-button-active span:last-child {
@@ -95,6 +94,7 @@ main {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    word-wrap: break-word;
 }
 
 /* footer */
