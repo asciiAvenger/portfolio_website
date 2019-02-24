@@ -20,19 +20,23 @@
         <nav id="menu-bar">
             <ul>
                 <li class="fat-entry">
-                    <a href="/">Startseite</a>
+                    <a href="#welcome">Startseite</a>
                 </li>
 
                 <li class="normal-entry">
-                    <a href="#">Über Mich</a>
+                    <a href="#about-me">Über Mich</a>
                 </li>
 
                 <li class="normal-entry">
-                    <a href="#">Meine Projekte</a>
+                    <a href="#skills">Skills</a>
                 </li>
 
                 <li class="normal-entry">
-                    <a href="#">Kontakt</a>
+                    <a href="#projects">Meine Projekte</a>
+                </li>
+
+                <li class="normal-entry">
+                    <a href="#contact">Kontakt</a>
                 </li>
 
                 <li class="fat-entry">
@@ -53,7 +57,7 @@
     </header>
 
     <main>
-        <section class="welcome">
+        <section id="welcome">
             <div class="profile">
                 <div class="hey">
                     Hey, ich bin
@@ -80,6 +84,64 @@
                 </div>
             </div>
         </section>
+
+        <div id="about-me" class="section-heading">
+            <h1>Über Mich</h1>
+        </div>
+
+        <section id="about-me-section">
+            <p>
+                Mein Name ist Philipp Alber und ich bin Student der Wirtschaftsinformatik an der DHBW-Stuttgart im vierten Semester.
+            </p>
+        </section>
+
+        <div id="skills" class="section-heading">
+            <h1>Skills</h1>
+        </div>
+
+        <section id="skills-section">
+            <div class="list-box">
+                <h2>Front-End</h2>
+                <ul>
+                    <li>HTML, CSS und JS</li>
+                    <li>Sass</li>
+                    <li>Frameworks/Libraries</li>
+                    <ul>
+                        <li>React.js (am lernen)</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="list-box">
+                <h2>Back-End</h2>
+                <ul>
+                    <li>PHP</li>
+                    <ul>
+                        <li>Laravel</li>
+                        <li>Code-Igniter</li>
+                    </ul>
+                    <li>Python</li>
+                    <ul>
+                        <li>Flask</li>
+                    </ul>
+                    <li>Datenbanken</li>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MariaDB</li>
+                        <li>SQLite</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="list-box">
+                <h2>Sonstige</h2>
+                <ul>
+                    <li>Cobol (Basics)</li>
+                    <li>Java</li>
+                    <li>Machine Learning (am lernen)</li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -88,7 +150,7 @@
     </footer>
 
     <script src="js/main.js"></script>
-  
+
 </body>
 
 </html>
