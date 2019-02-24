@@ -1,4 +1,12 @@
-.welcome {
+/* smooth scrolling */
+
+* {
+    scroll-behavior: smooth;
+}
+
+/* full screen welcome */
+
+#welcome {
     width: 100%;
     height: 100vh;
     background: url(../img/mountain-dog.jpg);
@@ -47,4 +55,81 @@
     text-decoration: none;
     color: black;
     margin: 0 10px;
+}
+
+/* headings */
+
+#about-me {
+    background: url(../img/code.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#skills {
+    background: url(../img/ai.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* sections */
+
+.section-heading {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.section-heading h1 {
+    color: black;
+    align-self: center;
+    margin: 0 auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 15px;
+    opacity: 0.8;
+    font-weight: normal;
+}
+
+/* about me section */
+
+#about-me-section {
+    background-color: azure;
+    padding: 20px 0;
+}
+
+#about-me-section p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* skills section */
+
+#skills-section {
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills-section .list-box {
+    /* border: 1px solid gray; */
+    flex: 1;
+    padding: 10px;
+}
+
+#skills-section .list-box h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    min-width: 300px;
+}
+
+#skills-section .list-box ul {
+    list-style: none;
+    text-align: center;
 }
