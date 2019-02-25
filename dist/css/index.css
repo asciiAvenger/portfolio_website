@@ -73,6 +73,13 @@
     background-position: center;
 }
 
+#projects {
+    background: url(../img/gears.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 /* sections */
 
 .section-heading {
@@ -94,10 +101,13 @@
     font-weight: normal;
 }
 
+.section {
+    background-color: azure;
+}
+
 /* about me section */
 
 #about-me-section {
-    background-color: azure;
     padding: 20px 0;
 }
 
@@ -109,7 +119,6 @@
 /* skills section */
 
 #skills-section {
-    background-color: azure;
     display: flex;
     flex-wrap: wrap;
 }
@@ -118,18 +127,79 @@
     /* border: 1px solid gray; */
     flex: 1;
     padding: 10px;
+    min-width: 300px;
 }
 
 #skills-section .list-box h2 {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 5px;
     text-align: center;
     font-weight: normal;
     text-transform: uppercase;
-    min-width: 300px;
 }
 
 #skills-section .list-box ul {
     list-style: none;
     text-align: center;
+    font-weight: bold;
+}
+
+#skills-section .list-box ul ul {
+    font-weight: normal;
+}
+
+/* projects section */
+
+#projects-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects-section .project-box {
+    margin: 15px;
+    flex: 1;
+    padding: 10px;
+    min-width: 250px;
+    min-height: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#projects-section .project-box h2 {
+    font-weight: normal;
+    font-size: 24px;
+    background-color: azure;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+#projects-section .project-box p {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-color: azure;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+#projects-section .project-box a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: auto;
+    background-color: azure;
+    opacity: 0.8;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+#projects-section #portfolio-project {
+    background: url(../img/mountain-dog.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#projects-section #sample-project {
+    background: url(../img/sample.jpg);
+    background-size: cover;
+    background-position: center;
 }
