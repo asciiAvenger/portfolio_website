@@ -4,6 +4,13 @@
     scroll-behavior: smooth;
 }
 
+/* content */
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
 /* full screen welcome */
 
 #welcome {
@@ -125,7 +132,7 @@
 
 /* skills section */
 
-#skills-section {
+#skills-section .content {
     display: flex;
     flex-wrap: wrap;
 }
@@ -134,7 +141,7 @@
     /* border: 1px solid gray; */
     flex: 1;
     padding: 10px;
-    min-width: 300px;
+    min-width: 200px;
 }
 
 #skills-section .list-box h2 {
@@ -158,9 +165,12 @@
 /* projects section */
 
 #projects-section {
+    background-color: rgb(32, 32, 32);
+}
+
+#projects-section .content {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(32, 32, 32);
 }
 
 #projects-section .project-box {
@@ -260,3 +270,24 @@
     color: moccasin;
 }
 
+/* media queries */
+
+@media only screen and (min-width: 600px) {
+    .content {
+        width: 75%;
+    }
+
+    .profile {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .content {
+        width: 60%;
+    }
+
+    .profile {
+        width: 20%;
+    }
+}

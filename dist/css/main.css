@@ -136,7 +136,7 @@ main {
 /* footer */
 
 footer {
-    width: auto;
+    border-top: moccasin 1px solid;
     padding: 20px;
     background-color: rgb(32, 32, 32);
 }
@@ -145,4 +145,26 @@ footer a {
     text-decoration: none;
     font-size: 15px;
     color: white;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 600px) {
+    #menu-bar {
+        width: 45vw;
+    }
+
+    .imp-pp-content {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #menu-bar {
+        width: 25vw;
+    }
+
+    .imp-pp-content {
+        width: 60%;
+    }
 }
