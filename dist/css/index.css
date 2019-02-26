@@ -80,6 +80,13 @@
     background-position: center;
 }
 
+#contact {
+    background: url(../img/contact.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 /* sections */
 
 .section-heading {
@@ -153,6 +160,7 @@
 #projects-section {
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(32, 32, 32);
 }
 
 #projects-section .project-box {
@@ -203,3 +211,52 @@
     background-size: cover;
     background-position: center;
 }
+
+/* contact section */
+
+#contact-section {
+    background-color: rgb(32, 32, 32);
+    padding: 20px 0;
+}
+
+#contact-section input {
+    background-color: azure;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#contact-section input {
+    padding: 10px;
+    width: 250px;
+}
+
+#contact-section textarea {
+    margin: 15px auto;
+    display: block;
+    padding: 10px;
+    width: 280px;
+    background-color: azure;
+    border-radius: 15px;
+}
+
+#contact-section input[type=email] {
+    margin: 10px auto;
+}
+
+#contact-section input[type=submit] {
+    width: 150px;
+}
+
+#contact-section p {
+    color: azure;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#contact-section a {
+    color: moccasin;
+}
+
