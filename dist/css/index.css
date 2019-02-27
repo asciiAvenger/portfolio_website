@@ -272,7 +272,7 @@
 
 /* media queries */
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
     .content {
         width: 75%;
     }
@@ -282,7 +282,7 @@
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
     .content {
         width: 60%;
     }

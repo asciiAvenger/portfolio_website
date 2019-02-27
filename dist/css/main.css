@@ -149,7 +149,7 @@ footer a {
 
 /* media queries */
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
     #menu-bar {
         width: 45vw;
         right: -45vw;
@@ -160,7 +160,7 @@ footer a {
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
     #menu-bar {
         width: 25vw;
         right: -25vw;
