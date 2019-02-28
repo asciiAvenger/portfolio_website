@@ -4,6 +4,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* content */
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
 /* menu bar */
 
 #menu-button {
@@ -151,6 +158,14 @@ footer a {
 /* media queries */
 
 @media (min-width: 600px) {
+    footer {
+        padding: 20px 0;
+    }
+
+    .content {
+        width: 75%;
+    }
+
     #menu-bar {
         width: 45vw;
         right: -45vw;
@@ -162,6 +177,10 @@ footer a {
 }
 
 @media (min-width: 1000px) {
+    .content {
+        width: 60%;
+    }
+
     #menu-bar {
         width: 25vw;
         right: -25vw;
