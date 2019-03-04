@@ -102,6 +102,17 @@
     transform: translateY(-10px) rotate(-45deg) ;
 }
 
+/* body transition */
+
+body {
+    transition: margin 300ms;
+}
+
+body.active {
+    margin-right: 80vw;
+    margin-left: -80vw;
+}
+
 /* main */
 
 main {
@@ -175,6 +186,11 @@ footer a {
     .imp-pp-content {
         width: 75%;
     }
+
+    body.active {
+        margin-right: 45vw;
+        margin-left: -45vw;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -189,5 +205,10 @@ footer a {
 
     .imp-pp-content {
         width: 60%;
+    }
+
+    body.active {
+        margin-right: 25vw;
+        margin-left: -25vw;
     }
 }
