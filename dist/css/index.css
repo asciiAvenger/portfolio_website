@@ -251,6 +251,7 @@
 
 #contact-section input[type=submit] {
     width: 150px;
+    cursor: pointer;
 }
 
 #contact-section p {
