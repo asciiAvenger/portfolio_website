@@ -7,7 +7,7 @@ function toggleMenuBar() {
     menuButton.classList.toggle("menu-button-active");
 }
 
-let menuEntries = document.querySelectorAll("#menu-bar li");
+let menuEntries = document.querySelectorAll("#menu-bar li a");
 for (entry of menuEntries) {
     entry.addEventListener("click", toggleMenuBar);
 }
