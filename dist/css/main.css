@@ -87,6 +87,7 @@
 
 .menu-button-active {
     background: none !important;
+    transform: rotate(180deg);
 }
 
 .menu-button-active span:first-child {
