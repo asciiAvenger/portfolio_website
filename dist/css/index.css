@@ -12,14 +12,15 @@
     background: url(../img/mountain-dog.jpg);
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
 }
 
 .profile {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 70%;
     background-color: azure;
-    align-self: center;
-    margin: auto;
     padding: 20px;
     opacity: 0.8;
     border-radius: 20px;
@@ -55,6 +56,25 @@
     text-decoration: none;
     color: black;
     margin: 0 10px;
+}
+
+#learn-more {
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: azure;
+    opacity: 0.8;
+    text-align: center;
+    width: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+#learn-more a {
+    text-decoration: none;
+    color: black;
 }
 
 /* headings */
